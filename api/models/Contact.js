@@ -1,13 +1,35 @@
 /**
-* Contact.js
-*
-* @description :: TODO: You might write a short summary of how this model works and what it represents here.
-* @docs        :: http://sailsjs.org/#!documentation/models
-*/
-
+ * Contact.js
+ *
+ * @description :: Contact information for a User. Created by system.
+ * @docs        :: http://passportjs.org/docs/profile
+ */
 module.exports = {
 
   attributes: {
+    name: 'string',
+    familyName: 'string',
+    givenName: 'string',
+    middleName: 'string',
+
+    emails: {
+      collection: 'Email'
+    },
+    phones: {
+      collection: 'Phone'
+    },
+    locations: {
+      collection: 'Location'
+    },
+    organization: {
+      model: 'Organization'
+    },
+    groups: {
+      collection: 'Group'
+    },
+    website: {
+      model: 'Website'
+    }
 
   }
 };

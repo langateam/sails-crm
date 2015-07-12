@@ -8,6 +8,14 @@
 module.exports = {
 
   attributes: {
+    name: 'string',
+
+    contacts: {
+      model: 'Contact'
+    },
+    groups: {
+      collection: 'Group'
+    }
 
   }
 };
