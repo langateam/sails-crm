@@ -13,7 +13,8 @@ module.exports = {
     middleName: 'string',
 
     emails: {
-      collection: 'Email'
+      collection: 'Email',
+      via: 'contact'
     },
     phones: {
       collection: 'Phone'

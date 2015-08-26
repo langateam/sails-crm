@@ -8,6 +8,7 @@
 module.exports = {
 
   attributes: {
+    name: 'string',
     address: {
       model: 'Address'
     },

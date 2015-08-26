@@ -11,6 +11,9 @@ module.exports = {
     value: 'string',
     type: {
       model: 'Label'
+    },
+    contact: {
+      model: 'Contact'
     }
   }
 };
