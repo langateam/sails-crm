@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/balderdash-projects/sails-crm",
   "sails": {
-    "isHook": true
+    "isHook": true,
+    "hookName": "crm"
+  },
+  "devDependencies": {
+    "sails-hook-babel": "^5.0.1"
   }
 }

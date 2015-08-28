@@ -1,14 +1,14 @@
 /**
 * Label.js
 *
-* @description :: TODO: You might write a short summary of how this model works and what it represents here.
-* @docs        :: http://sailsjs.org/#!documentation/models
+* A simple String value that can be attached to an Object
 */
-
 module.exports = {
-
   attributes: {
-
+    value: {
+      type: 'string',
+      unique: true
+    }
   }
 };
 

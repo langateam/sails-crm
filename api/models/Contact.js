@@ -30,8 +30,9 @@ module.exports = {
     },
     website: {
       model: 'Website'
+    },
+    user: {
+      model: 'User'
     }
-
   }
 };
-
