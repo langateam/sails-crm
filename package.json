@@ -2,9 +2,10 @@
   "name": "@balderdash/sails-crm",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/api/hooks/crm",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,11 @@
     "hookName": "crm"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
     "sails-hook-babel": "^5.0.1"
+  },
+  "dependencies": {
+    "marlinspike": "^0.12.11"
   }
 }
