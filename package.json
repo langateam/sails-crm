@@ -1,7 +1,7 @@
 {
   "name": "@balderdash/sails-crm",
   "version": "0.0.2",
-  "description": "",
+  "description": "Sails CRM plugin",
   "main": "dist/api/hooks/crm",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,9 +22,9 @@
     "hookName": "crm"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
     "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.1",
-    "sails-hook-babel": "^5.0.1"
+    "gulp-babel": "^5.2.1"
   },
   "dependencies": {
     "marlinspike": "^0.12.11"
