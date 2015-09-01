@@ -27,6 +27,7 @@
     "gulp-babel": "^5.2.1"
   },
   "dependencies": {
+    "lodash": "^3.10.1",
     "marlinspike": "^0.12.11"
   }
 }
