@@ -1,6 +1,6 @@
 {
   "name": "@balderdash/sails-crm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sails CRM plugin",
   "main": "dist/api/hooks/crm",
   "scripts": {
