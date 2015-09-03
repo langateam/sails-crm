@@ -1,5 +1,5 @@
 var sails = require('sails');
-require('babel/register');
+require('babel/register')
 
 sails.lift({
   log: {
